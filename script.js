@@ -1,5 +1,8 @@
-alert("Test CSP");
 document.addEventListener("DOMContentLoaded", function () {
+    // Show a message when script runs
+    const statusMessage = document.getElementById("statusMessage");
+    statusMessage.innerText = "Script loaded and running!";
+    
     const runButton = document.getElementById("runButton");
     const output = document.getElementById("output");
     const userInput = document.getElementById("userInput");
